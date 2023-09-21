@@ -19,7 +19,7 @@ def set_alarm():
         print(f"Time until the alarm: {time_diff}")
         time.sleep(time_diff.total_seconds())
 
-        pygame.mixer.music.load("y2mate.com - JAILER  Hukum Lyric Video  Superstar Rajinikanth  Sun Pictures  Anirudh  Nelson.mp3")
+        pygame.mixer.music.load("songs/hukum.mp3")
         pygame.mixer.music.play()
         set_button.place_forget()
 
